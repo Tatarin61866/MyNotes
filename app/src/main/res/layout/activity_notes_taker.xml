@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotesTakerActivity"
+    android:background="@color/dark_gray"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarNotes"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ivSave"
+            android:src="@drawable/baseline_save_24"
+            android:layout_alignParentEnd="true"
+            android:padding="8dp"
+            android:background="@android:color/transparent"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Заголовок:"
+        android:textColorHint="@color/white"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/etNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите заметку:"
+        android:textColorHint="@color/white"
+        android:padding="8dp"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        />
+</LinearLayout>
+
