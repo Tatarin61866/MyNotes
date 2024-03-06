@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@color/gray">
+    android:background="@color/sea4">
 <item android:id="@+id/pin"
-    android:title="Закрепить/Открепить"
-    android:background="@color/gray"/>
+    android:title="Избранное" 
+    android:background="@color/sea4"/>
     <item android:id="@+id/delete"
         android:title="Удалить"
-        android:background="@color/gray"/>
+        android:background="@color/sea4"/>
 </menu>

@@ -51,7 +51,7 @@ public class NotesListAdapter extends RecyclerView.Adapter<NotesViewHolder>{
         holder.tvPinDate.setSelected(true);
 
         if(list.get(position).isPinned()){
-            holder.ivPin.setImageResource(R.drawable.pin);
+            holder.ivPin.setImageResource(R.drawable.baseline_star_24);
         } else {
             holder.ivPin.setImageResource(0);
         }
@@ -87,16 +87,19 @@ public class NotesListAdapter extends RecyclerView.Adapter<NotesViewHolder>{
 
 
     private int getRandomColor(){
+       // int colorCode = R.color.sea2;
         List<Integer> colorCode = new ArrayList<>();
-        colorCode.add(R.color.color1);
-        colorCode.add(R.color.color2);
-        colorCode.add(R.color.color3);
-        colorCode.add(R.color.color4);
-        colorCode.add(R.color.color5);
+        colorCode.add(R.color.sea21);
+        colorCode.add(R.color.sea2);
+        colorCode.add(R.color.sea22);
+        colorCode.add(R.color.sea23);
+        //colorCode.add(R.color.color4);
+//        colorCode.add(R.color.color5);
 
         Random random = new Random();
         int rndColor = random.nextInt(colorCode.size());
         return colorCode.get(rndColor);
+       //return colorCode;
     }
 }
  class NotesViewHolder extends RecyclerView.ViewHolder {

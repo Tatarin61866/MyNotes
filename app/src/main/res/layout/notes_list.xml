@@ -41,7 +41,8 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
-                android:src="@drawable/pin" />
+                android:src="@drawable/baseline_star_24"/>
+<!--                android:src="@drawable/pin"/>-->
         </RelativeLayout>
         <TextView
             android:id="@+id/tvPin"
@@ -52,7 +53,8 @@
             android:padding="8dp"
             android:textColor="@color/black"
             android:text="Notes text"
-            android:maxLines="10"
+            android:maxLines="3"
+            android:minLines="3"
             />
         <TextView
             android:id="@+id/tvPinDate"
