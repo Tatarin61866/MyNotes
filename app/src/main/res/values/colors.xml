@@ -16,11 +16,13 @@
 
     <color name="sea1">#C9E6F4</color>
     <color name="sea2">#89BBD2</color>
+    <color name="sea2op">#d989BBD2</color>
     <color name="sea21">#89D28D</color>
     <color name="sea22">#B089D2</color>
     <color name="sea23">#D2A689</color>
     <color name="sea3">#406E6B</color>
     <color name="sea4">#476373</color>
+    <color name="sea4op">#d9476373</color>
     <color name="sea5">#1C2F39</color>
 
 
